@@ -2,7 +2,7 @@ $VMS = Get-VM
 $VC = ($global:defaultviserver).Name
 $User = ($global:defaultviserver).User
 $i = 1
-$OutputFile = 'C:\Users\<USERNAME>\Desktop\vNICs (' + $VC + ').txt'
+$OutputFile = 'C:\Users\<USERNAME>\Desktop\vNICs (' + $VC + ').txt' ###Replace <USERNAME> with your Username. 
 $Date = Get-Date
 $VMCount = (Get-VM | Measure).Count
 Write-Host Total VMs : $VMCount
