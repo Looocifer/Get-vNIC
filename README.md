@@ -2,6 +2,7 @@
 
 This PS1 script generates output in a TXT file listing all NICs in the vCenters it is connected to, categorized by Parent VM.
 Once script has been run it will pop up the output via TXT Reader (typically Notepad in Windows).
+Also has Active Runtime Status Reporting for the Console. User will know what is happening exactly when it happens.
 
 Example Output below.
 _____________________________________________________________________________________________________________________________
