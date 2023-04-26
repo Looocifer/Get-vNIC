@@ -10,7 +10,7 @@ Write-Host Start : $Date | Out-File -FilePath $OutputFile -Append -ErrorAction C
 Write-Host Running vNIC Query on vCenter Server $VC
 Write-Host INFO : Perm Limits on Objects are subject to UPN : $User
 Write-Host Target File to Remove : $OutputFile
-Write-Host Attempting to remove previous output file. Errors between this message and the next can mean it has been already removed.
+Write-Host Attempting to remove previous output file. Errors between this message and the next can mean it has already been removed.
 
 Remove-Item $OutputFile -ErrorAction Continue
 Foreach ($VM in $VMS) {
